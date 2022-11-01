@@ -2,7 +2,7 @@
 
 ## Catch2 Amalgamated
 
-This repository contains amalgamated version of Catch2 for easy use with [pacc](https://github.com/PoetaKodu/pacc).
+This repository contains an amalgamated version of Catch2 for easy use with [pacc](https://github.com/PoetaKodu/pacc).
 
 ## Installation and usage
 
@@ -18,7 +18,12 @@ then include it in your project:
 // use the following include
 #include <Catch2/catch_amalgamated.hpp>
 
+int main (int argc, char * argv[]) {
+    return Catch::Session().run( argc, argv );
+}
 ```
+
+The way it is set up requires you to manually start a Catch session like in the example above.
 
 ## What is Catch2?
 
