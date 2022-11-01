@@ -1,0 +1,15 @@
+{
+	"name": "Catch2-Amalgamated",
+	"type": "static lib",
+	"language": "C++14",
+	"includeFolders": {
+		"public": "include",
+		"private": "include/Catch2"
+	},
+	"files": [
+		"include/Catch2/catch_amalgamated.hpp",
+		"src/catch_amalgamated.cpp"
+	],
+	"version": "3.1.1",
+	"description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)"
+}
