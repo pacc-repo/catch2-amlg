@@ -1,10 +1,13 @@
 {
-	"name": "Catch2-Amalgamated",
+	"name": "catch2-amlg",
 	"type": "static lib",
 	"language": "C++14",
 	"includeFolders": {
 		"public": "include",
 		"private": "include/Catch2"
+	},
+	"defines": {
+		"private": [ "CATCH_AMALGAMATED_CUSTOM_MAIN=1" ]
 	},
 	"files": [
 		"include/Catch2/catch_amalgamated.hpp",
